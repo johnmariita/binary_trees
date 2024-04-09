@@ -28,5 +28,7 @@ int main(void)
     printf("Height from %d: %lu\n", root->left->right->n, height);
     height = binary_tree_height(new);
     printf("Height of NULL is %lu\n", height);
+    height = binary_tree_height(NULL);
+    printf("Height of null is %lu\n", height);
     return (0);
 }
